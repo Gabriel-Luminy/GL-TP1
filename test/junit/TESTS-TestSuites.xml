@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="gabriel-Dell" id="0" name="MainTest" package="" skipped="0" tests="1" time="0.053" timestamp="2015-10-10T12:56:05">
+  <testsuite errors="0" failures="1" hostname="gabriel-Dell" id="0" name="MainTest" package="" skipped="0" tests="1" time="0.053" timestamp="2015-10-10T13:00:24">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -170,7 +170,7 @@
 
           <property name="java.class.path" value="/home/gabriel/workspace/test/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.3.0.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/java/ant-1.9.3.jar:/usr/share/java/ant-junit-1.9.3.jar" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MainTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/gabriel/workspace/test/junit/TEST-MainTest.xml crashfile=/home/gabriel/workspace/test/junitvmwatcher1439880200160633791.properties propsfile=/home/gabriel/workspace/test/junit6861343270760607659.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MainTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/gabriel/workspace/test/junit/TEST-MainTest.xml crashfile=/home/gabriel/workspace/test/junitvmwatcher1426546432825817897.properties propsfile=/home/gabriel/workspace/test/junit1242369106543452318.properties" />
 
           <property name="env.XDG_SESSION_ID" value="c3" />
 
