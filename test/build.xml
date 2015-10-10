@@ -61,6 +61,7 @@
     <target name="MainTest">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
+			<formatter type="brief" usefile="false"/>
             <formatter type="xml"/>
             <test name="MainTest" todir="${junit.output.dir}"/>
             <classpath refid="test.classpath"/>

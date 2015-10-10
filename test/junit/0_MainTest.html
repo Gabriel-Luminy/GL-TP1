@@ -25,7 +25,7 @@
     
         cur['ant.project.default-target'] = 'build';
     
-        cur['ant.project.invoked-targets'] = 'build,MainTest,Main,junitreport';
+        cur['ant.project.invoked-targets'] = 'MainTest,Main,junitreport';
     
         cur['ant.project.name'] = 'test';
     
@@ -163,7 +163,7 @@
     
         cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
     
-        cur['java.class.path'] = '/home/gabriel/workspace/test/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.3.0.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/java/ant-1.9.3.jar:/usr/share/java/ant-junit-1.9.3.jar';
+        cur['java.class.path'] = '/home/gabriel/workspace/test/bin:/usr/share/eclipse/dropins/jdt/plugins/org.junit_4.8.2.dist/junit.jar:/usr/share/eclipse/dropins/jdt/plugins/org.hamcrest.core_1.3.0.jar:/home/gabriel/workspace/test/junit.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/java/ant-1.9.3.jar:/usr/share/java/ant-junit-1.9.3.jar';
     
         cur['java.class.version'] = '51.0';
     
@@ -237,7 +237,7 @@
     
         cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
     
-        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MainTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/gabriel/workspace/test/junit/TEST-MainTest.xml crashfile=/home/gabriel/workspace/test/junitvmwatcher1426546432825817897.properties propsfile=/home/gabriel/workspace/test/junit1242369106543452318.properties';
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner MainTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/gabriel/workspace/test/junit/TEST-MainTest.xml crashfile=/home/gabriel/workspace/test/junitvmwatcher5936412231599461062.properties propsfile=/home/gabriel/workspace/test/junit4812932258745997493.properties';
     
         cur['sun.java.launcher'] = 'SUN_STANDARD';
     
@@ -303,8 +303,8 @@
 <tr valign="top">
 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
 </tr>
-<tr valign="top" class="Failure">
-<td><a title="Display all tests" href="0_MainTest.html">MainTest</a></td><td><a title="Display all tests" href="0_MainTest.html">1</a></td><td>0</td><td><a title="Display only failures" href="0_MainTest-fails.html">1</a></td><td>0</td><td>0.053</td><td>2015-10-10T13:00:24</td><td>gabriel-Dell</td>
+<tr valign="top" class="Pass">
+<td><a title="Display all tests" href="0_MainTest.html">MainTest</a></td><td><a title="Display all tests" href="0_MainTest.html">1</a></td><td>0</td><td>0</td><td>0</td><td>0.050</td><td>2015-10-10T14:07:34</td><td>gabriel-Dell</td>
 </tr>
 </table>
 <h2>Tests</h2>
@@ -312,11 +312,8 @@
 <tr valign="top">
 <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
 </tr>
-<tr valign="top" class="Failure">
-<td><a name="warning"></a>warning</td><td>Failure</td><td>No tests found in MainTest<br>
-<br>
-<code>junit.framework.AssertionFailedError: No tests found in MainTest<br>
-</code></td><td>0.005</td>
+<tr valign="top" class="TableRowColor">
+<td><a name="test"></a>test</td><td>Success</td><td></td><td>0.001</td>
 </tr>
 </table>
 <div class="Properties">
