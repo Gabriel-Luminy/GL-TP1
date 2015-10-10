@@ -79,7 +79,7 @@
               	
     <target name="create-jar" depends="">
 
-              	    <jar destfile="jar/SomeFunkyJar.jar"
+              	    <jar destfile="jar/build.jar"
               	         basedir=""
               	         includes="**/bin/*.class"/>
               	  </target>	
