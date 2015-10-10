@@ -75,4 +75,13 @@
             <report format="frames" todir="${junit.output.dir}"/>
         </junitreport>
     </target>
+      
+              	
+    <target name="create-jar" depends="">
+
+              	    <jar destfile="jar/SomeFunkyJar.jar"
+              	         basedir=""
+              	         includes="**/bin/*.class"/>
+              	  </target>	
+              	
 </project>
