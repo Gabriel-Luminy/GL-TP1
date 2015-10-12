@@ -15,6 +15,7 @@ public class MainTest extends TestCase {
 		assertEquals(5, Main.additionner(2, 3));
 		assertEquals(7, Main.additionner(4, 3));
 		assertEquals(10, Main.additionner(7, 3));
+		assertEquals(11, Main.additionner(7, 3));
 		
 	}
 	
